@@ -1,0 +1,71 @@
+[
+  {
+    "content": 0,
+    "imageUrl": "https://dummyimage.com/400x400/000/fff",
+    "title": "길게 함께 하실 가족 같은분 구인해요~ 함께 세상에 저희 목소리를 들려주어 보아요 ♡",
+    "recruit": "구인",
+    "part": "보컬",
+    "genre": "락",
+    "cellNo": "010-2742-2929",
+    "location": "서울",
+    "address": "강남구 지하 2층 음악 연습실.",
+    "soundCloudUrl": "https://hehe.com"
+  },
+  {
+    "content": 1,
+    "imageUrl": "https://dummyimage.com/400x400/000/fff",
+    "title": "함께 세상에 저희 목소리를 들려주어 보아요 ♡",
+    "recruit": "구인",
+    "part": "기타",
+    "genre": "메탈",
+    "cellNo": "010-2742-2929",
+    "location": "대전",
+    "address": "강남구 지하 2층 음악 연습실."
+  },
+  {
+    "content": 2,
+    "imageUrl": "https://dummyimage.com/400x400/000/fff",
+    "title": "길게 함께 하실 가족 같은분 구인해요~",
+    "recruit": "구인",
+    "part": "베이스",
+    "genre": "발라드",
+    "cellNo": "010-1234-5678",
+    "location": "대구",
+    "address": "강남구 지하 2층 음악 연습실.",
+    "soundCloudUrl": "https://hehe.com"
+  },
+  {
+    "content": 3,
+    "imageUrl": "https://dummyimage.com/400x400/000/fff",
+    "title": "길게 함께 하실 가족 같은분 구인해요~",
+    "recruit": "구직",
+    "part": "드럼",
+    "genre": "소울",
+    "cellNo": "010-1234-5678",
+    "location": "부산",
+    "address": "강남구 지하 2층 음악 연습실."
+  },
+  {
+    "content": 4,
+    "imageUrl": "https://dummyimage.com/400x400/000/fff",
+    "title": "함께 음악 해요~",
+    "recruit": "구인",
+    "part": "키보드",
+    "genre": "R&B",
+    "cellNo": "010-1234-5678",
+    "location": "광주",
+    "address": "강남구 지하 2층 음악 연습실.",
+    "soundCloudUrl": "https://hehe.com"
+  },
+  {
+    "content": 5,
+    "imageUrl": "https://dummyimage.com/400x400/000/fff",
+    "title": "길게 함께 하실 가족 같은분 구인해요~ 함께 세상에 저희 목소리를 들려주어 보아요 ♡",
+    "recruit": "구직",
+    "part": "키보드",
+    "genre": "일렉트로닉",
+    "cellNo": "010-1234-5678",
+    "location": "대천",
+    "address": "대천동 지하 2층 음악 연습실."
+  }
+]
