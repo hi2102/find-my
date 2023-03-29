@@ -4,7 +4,11 @@ import RoutePage from './routes/RoutePage';
 
 import Main from './component/pages/main/Main';
 
-function FirstPage({ isLogin }) {
+interface FirstPageProps {
+	isLogin: Boolean;
+}
+
+function FirstPage({ isLogin }: FirstPageProps) {
 	return (
 		<>
 			{isLogin ? (
@@ -29,5 +33,5 @@ function FirstPage({ isLogin }) {
 }
 
 export default function App() {
-	return <FirstPage isLogin={true} />;
+	return <FirstPage isLogin={false} />;
 }
