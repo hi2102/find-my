@@ -49,6 +49,10 @@
   font-size: 1.5rem;
 }
 
+.post_font_size {
+  font-size: 1.25rem;
+}
+
 .content_edit_button {
   font-size: 1rem;
   border: 0;
@@ -71,6 +75,7 @@
 
 .dummy_content{
   height: 20rem;
+  width: 22.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,8 +85,7 @@
 }
 
 .load_content_img {
-  width: 100%;
+  width: 22rem;
   height: 100%;
   border-radius: 0.25rem;
-  filter: invert(1);
 }

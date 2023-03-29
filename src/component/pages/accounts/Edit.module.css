@@ -1,0 +1,35 @@
+
+.modal_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0, 0.7);
+  zIndex: 1000;
+}
+
+.modal {
+  position: fixed;
+  top: 10%;
+  left: 27%;
+  width: 30rem;
+  height: 40rem;
+  background-color: beige;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.button_style {
+  float: right;
+  font-size: 1.5rem;
+  border: 0;
+  padding: 10px;
+  margin: 0px;
+  border-radius: .5rem;
+}
