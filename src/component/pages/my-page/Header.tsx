@@ -1,4 +1,5 @@
-import { Fragment } from 'react';
+import { Fragment, useState } from 'react';
+import { Link } from 'react-router-dom';
 // Load JSON Datas
 import userDatas from '../../../data/fake_user.json';
 import profiles from '../../../data/profile.json';
@@ -6,7 +7,6 @@ import profiles from '../../../data/profile.json';
 import { ReactComponent as Setting } from '../../../assets/icons/setting.svg';
 import profileImg from '../../../assets/images/profile.jpg';
 import styles from './MyPage.module.css';
-import { Link } from 'react-router-dom';
 
 interface IUser {
 	id: number;

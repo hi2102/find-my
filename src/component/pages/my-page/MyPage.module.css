@@ -13,8 +13,8 @@
 }
 
 .image_wrapper {
-  width: 10rem;
-  height: 10rem;
+  width: 12rem;
+  height: 12rem;
   margin-right: 2rem;
 }
 
@@ -59,6 +59,10 @@
   border-radius: .5rem;
   padding: .5rem 1rem;
 }
+
+/* .content_edit_button:hover {
+  cursor: pointer
+} */
 
 .border_color {
   border-color: #FAFAFA;
