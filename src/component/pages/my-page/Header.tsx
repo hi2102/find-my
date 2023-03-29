@@ -1,13 +1,7 @@
 import { Fragment } from 'react';
-
-// Load Potal(modal)
-// import { createPortal } from 'react-dom';
-// import Edit from '../accounts/Edit';
-
 // Load JSON Datas
 import userDatas from '../../../data/fake_user.json';
 import profiles from '../../../data/profile.json';
-
 // Load Styles(Icon, image, css)
 import { ReactComponent as Setting } from '../../../assets/icons/setting.svg';
 import profileImg from '../../../assets/images/profile.jpg';
@@ -41,13 +35,6 @@ function PostAndFollow({ id, posts, followers, following }: IUser) {
 }
 
 export default function Header() {
-	// const [isModalOpen, setIsModalOpen] = useState(false);
-
-	// const EditProfile = (e: { preventDefault: () => void }) => {
-	// 	e.preventDefault();
-	// 	setIsModalOpen(() => !isModalOpen);
-	// };
-
 	return (
 		<header className={styles.container}>
 			<div className={styles.image_container}>
@@ -62,11 +49,8 @@ export default function Header() {
 							{getProfile[0].profile[0].username}
 						</span>
 						<Link to='/accounts/edit'>
-							<button
-								className={styles.content_edit_button}
-								>
+							<button className={styles.content_edit_button}>
 								<b>Edit profile</b>
-								{/* {isModalOpen && createPortal(<Edit />, document.body)} */}
 							</button>
 						</Link>
 						<span>
