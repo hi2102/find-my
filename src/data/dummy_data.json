@@ -1,16 +1,16 @@
 [
   {
-    "content": 0,
-    "imageUrl": "https://dummyimage.com/400x400/000/fff",
-    "title": "길게 함께 하실 가족 같은분 구인해요~ 함께 세상에 저희 목소리를 들려주어 보아요 ♡",
-    "recruit": "구인",
-    "part": "보컬",
-    "genre": "락",
-    "cellNo": "010-2742-2929",
-    "location": "서울",
-    "address": "강남구 지하 2층 음악 연습실.",
-    "soundCloudUrl": "https://hehe.com"
-  },
+		"content": 0,
+		"imageUrl": "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg",
+		"title": "길게 함께 하실 가족 같은분 구인해요~ 함께 세상에 저희 목소리를 들려주어 보아요 ♡",
+		"recruit": "구인",
+		"part": "보컬",
+		"genre": "락",
+		"cellNo": "010-2742-2929",
+		"location": "서울",
+		"address": "강남구 지하 2층 음악 연습실.",
+		"soundCloudUrl": "https://hehe.com"
+	},
   {
     "content": 1,
     "imageUrl": "https://dummyimage.com/400x400/000/fff",
