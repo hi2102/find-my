@@ -5,10 +5,8 @@ import { ReactComponent as Feed } from '../../../assets/icons/feed.svg';
 import { ReactComponent as Search } from '../../../assets/icons/search.svg';
 import { ReactComponent as NewPost } from '../../../assets/icons/createNewPost.svg';
 import { ReactComponent as Direct } from '../../../assets/icons/direct.svg';
+
 import MyIcon from '../../../assets/images/profile.jpg';
-
-// import MyPage from './MyPage.js';
-
 import styles from './Footer.module.css';
 
 
