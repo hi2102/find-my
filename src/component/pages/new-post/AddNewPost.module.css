@@ -1,4 +1,5 @@
 .modal_container {
+  position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -12,17 +13,23 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0, 0.7);
+  z-index: 3;
 }
 
 .button_style {
-  float: right;
+  position: absolute;
+  top: 0%;
+  right: 0%;
   font-size: 2.75rem;
+  margin-top: 1rem;
   border: 0;
-  padding: .5rem;
-  margin: 1rem;
   border-radius: .5rem;
-  background-color: transparent;
-  color: #fff
+  z-index: 3;
+  background-color: transparent;  
+} 
+
+.button_style:hover {
+  cursor: pointer;
 } 
 
 .modal {
@@ -34,6 +41,8 @@
   translate: -50% -50%;
   background-color: #fff;
   border-radius: 1rem;
+  z-index: 10;
+
 }
 
 .text {
@@ -41,10 +50,12 @@
   padding: 2rem;
   border-bottom: 1px solid lightgrey;
 }
+
 .upload_wrapper {
   position: relative;
   width: 100%;
   height: 100%;
+
 }
 .add_icon {
   position: fixed;
@@ -73,3 +84,7 @@
   padding: 1.5rem;
   letter-spacing: 0;
 }
+
+.add_icon_button:hover {
+  cursor: pointer;
+} 
