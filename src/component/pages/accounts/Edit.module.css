@@ -1,4 +1,27 @@
+.container {
+  width: 560px;
+  /* background: rgb(250, 250, 250); */
 
+  margin: 1rem -1rem 3.25rem;
+  padding: 1.25rem;
+
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+
+  text-align: left;
+}
+.header {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+/* this is modal 
 .modal_container {
 	display: flex;
 	justify-content: center;
@@ -11,7 +34,6 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0, 0.7);
-  zIndex: 1000;
 }
 
 .modal {
@@ -32,4 +54,4 @@
   padding: 10px;
   margin: 0px;
   border-radius: .5rem;
-}
+} */

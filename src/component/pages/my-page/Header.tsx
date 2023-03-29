@@ -1,8 +1,8 @@
-import { Fragment, useState } from 'react';
+import { Fragment } from 'react';
 
 // Load Potal(modal)
-import { createPortal } from 'react-dom';
-import Edit from '../accounts/Edit';
+// import { createPortal } from 'react-dom';
+// import Edit from '../accounts/Edit';
 
 // Load JSON Datas
 import userDatas from '../../../data/fake_user.json';
@@ -12,6 +12,7 @@ import profiles from '../../../data/profile.json';
 import { ReactComponent as Setting } from '../../../assets/icons/setting.svg';
 import profileImg from '../../../assets/images/profile.jpg';
 import styles from './MyPage.module.css';
+import { Link } from 'react-router-dom';
 
 interface IUser {
 	id: number;
@@ -40,12 +41,12 @@ function PostAndFollow({ id, posts, followers, following }: IUser) {
 }
 
 export default function Header() {
-	const [isModalOpen, setIsModalOpen] = useState(false);
+	// const [isModalOpen, setIsModalOpen] = useState(false);
 
-	const EditProfile = (e: { preventDefault: () => void }) => {
-		e.preventDefault();
-		setIsModalOpen(() => !isModalOpen);
-	};
+	// const EditProfile = (e: { preventDefault: () => void }) => {
+	// 	e.preventDefault();
+	// 	setIsModalOpen(() => !isModalOpen);
+	// };
 
 	return (
 		<header className={styles.container}>
@@ -60,12 +61,14 @@ export default function Header() {
 						<span className={styles.user_id}>
 							{getProfile[0].profile[0].username}
 						</span>
-						<button
-							className={styles.content_edit_button}
-							onClick={EditProfile}>
-							<b>Edit profile</b>
-							{isModalOpen && createPortal(<Edit />, document.body)}
-						</button>
+						<Link to='/accounts/edit'>
+							<button
+								className={styles.content_edit_button}
+								>
+								<b>Edit profile</b>
+								{/* {isModalOpen && createPortal(<Edit />, document.body)} */}
+							</button>
+						</Link>
 						<span>
 							<Setting />
 						</span>
