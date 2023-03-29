@@ -28,8 +28,6 @@ export default function Footer() {
 				<Search />
 			</Link>
 			<NewPost onClick={CreateNewPost} />
-			{/* <Link to={'/new-post'}>
-			</Link> */}
 			{isModalOpen &&
 				createPortal(
 					<AddNewPost onClicked={CreateNewPost} />,
