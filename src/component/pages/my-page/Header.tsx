@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react';
+import { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 // Load JSON Datas
 import userDatas from '../../../data/fake_user.json';

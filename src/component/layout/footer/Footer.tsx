@@ -7,7 +7,6 @@ import AddNewPost from '../../pages/new-post/AddNewPost';
 
 // Load icons & styles
 import { ReactComponent as Feed } from '../../../assets/icons/feed.svg';
-import { ReactComponent as Search } from '../../../assets/icons/search.svg';
 import { ReactComponent as NewPost } from '../../../assets/icons/createNewPost.svg';
 import { ReactComponent as Direct } from '../../../assets/icons/direct.svg';
 import MyIcon from '../../../assets/images/profile.jpg';
@@ -26,16 +25,12 @@ export default function Footer() {
 			<Link to={'/feed'}>
 				<Feed />
 			</Link>
-			<Link to={'/search'}>
-				<Search />
-			</Link>
 			<NewPost onClick={CreateNewPost} />
 			{isModalOpen &&
 				createPortal(
 					<AddNewPost onClicked={CreateNewPost} />,
 					document.getElementById('portal')!,
 				)}
-
 			<Link to={'/dm'}>
 				<Direct />
 			</Link>
