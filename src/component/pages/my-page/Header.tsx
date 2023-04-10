@@ -34,17 +34,16 @@ function PostAndFollow({ id, posts, followers, following }: IUser) {
 	);
 }
 
-<<<<<<< HEAD
 function EditButton() {
-	return <Link to='/accounts/edit'>
-		<button className={styles.content_edit_button} >
-			<b>Edit profile</b>
-		</button>
-	</Link>
+	return (
+		<Link to='/accounts/edit'>
+			<button className={styles.content_edit_button}>
+				<b>Edit profile</b>
+			</button>
+		</Link>
+	);
 }
 
-=======
->>>>>>> 20dfa7c3fa6c985f358d31ca9d8ea183b29e3d85
 export default function Header() {
 	return (
 		<header className={styles.container}>
@@ -59,15 +58,7 @@ export default function Header() {
 						<span className={styles.user_id}>
 							{getProfile[0].profile[0].username}
 						</span>
-<<<<<<< HEAD
 						<EditButton />
-=======
-						<Link to='/accounts/edit'>
-							<button className={styles.content_edit_button}>
-								<b>Edit profile</b>
-							</button>
-						</Link>
->>>>>>> 20dfa7c3fa6c985f358d31ca9d8ea183b29e3d85
 						<span>
 							<Setting />
 						</span>
