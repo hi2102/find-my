@@ -1,0 +1,8 @@
+.input {
+  padding-left: 1rem;
+	border-radius: 1rem;
+}
+
+.input::before {
+  content: 'haha';
+}

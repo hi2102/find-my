@@ -6,6 +6,7 @@ import { ReactComponent as RecommendUser } from '../../../assets/icons/recommend
 
 import styles from './Header.module.css';
 import profiles from '../../../data/profile.json';
+import SearchBar from '../../search_bar/SearchBar';
 
 const UserName = [{ ...profiles }];
 
@@ -37,7 +38,7 @@ function FeedHeader() {
 	return (
 		<div className={styles.feed_header}>
 			<div>This is Logo</div>
-			<div>This is Search Bar</div>
+			<SearchBar />
 		</div>
 	);
 }
