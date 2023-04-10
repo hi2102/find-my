@@ -1,0 +1,26 @@
+.container {
+  width: 560px;
+  /* background: rgb(250, 250, 250); */
+
+  margin: 1rem -1rem 3.25rem;
+  padding: 1.25rem;
+
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+
+  text-align: left;
+}
+.header {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+.profile_default {
+  opacity: 1
+}

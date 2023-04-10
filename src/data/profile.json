@@ -1,0 +1,20 @@
+{
+	"profile": [
+		{
+			"name": "LJY",
+			"username": "whenTechMeetsArt",
+			"website": "www.youtube.com/channel/UCNXpStdc2YqPQd-8HDIhPrg/videos",
+			"bio": "£ove ¥•uRSE1F",
+			"email": "hi2102@naver.com",
+			"phone_number": "010-8940-2538",
+			"gender": "male"
+		}
+	],
+	"posts": [
+		{
+			"id": "0",
+			"title": "길게 함께 하실 가족 같은분 구인해요~ 함께 세상에 저희 목소리를 들려주어 보아요 ♡",
+			"imageUrl": "https://dummyimage.com/400x400/000/fff"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+.container {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 1px solid gainsboro;
+}
+.user_wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.arrow {
+  rotate: 180deg;
+}
+.feed_header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  padding: 1rem 2.25rem 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit_header{
+  padding: 0 1rem;
+  display: flex;
+  font-size: 1.25rem;
+  text-align: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.edit_header > b {
+  flex: 1;
+}
