@@ -16,7 +16,6 @@
 }
 .arrow {
   rotate: 180deg;
-<<<<<<< HEAD
 }
 .feed_header {
   position: sticky;
@@ -40,6 +39,4 @@
 }
 .edit_header > b {
   flex: 1;
-=======
->>>>>>> 20dfa7c3fa6c985f358d31ca9d8ea183b29e3d85
 }

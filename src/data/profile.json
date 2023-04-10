@@ -8,15 +8,6 @@
 			"email": "hi2102@naver.com",
 			"phone_number": "010-8940-2538",
 			"gender": "male"
-<<<<<<< HEAD
-=======
-		},
-		{
-			"id": 0,
-			"posts": 26,
-			"followers": 231,
-			"following": 197
->>>>>>> 20dfa7c3fa6c985f358d31ca9d8ea183b29e3d85
 		}
 	],
 	"posts": [

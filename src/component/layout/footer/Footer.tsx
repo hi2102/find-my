@@ -2,13 +2,7 @@
 import { useState } from 'react';
 import { createPortal } from 'react-dom';
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD
 import AddNewPost from '../../pages/new-post/AddNewPost';
-=======
-
-import AddNewPost from '../../pages/new-post/AddNewPost';
-
->>>>>>> 20dfa7c3fa6c985f358d31ca9d8ea183b29e3d85
 // Load icons & styles
 import { ReactComponent as Feed } from '../../../assets/icons/feed.svg';
 import { ReactComponent as NewPost } from '../../../assets/icons/createNewPost.svg';
