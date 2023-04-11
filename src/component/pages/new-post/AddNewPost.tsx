@@ -5,7 +5,7 @@ import { useState } from 'react';
 // import { ReactComponent as AddIcon } from '../../../assets/icons/createNewPostImg.svg';
 
 export default function AddNewPost({ onClicked }: any) {
-	const [accordian, setAccordian] : any = useState({
+	const [accordian, setAccordian]: any = useState({
 		0: false,
 		1: false,
 	});
@@ -26,7 +26,7 @@ export default function AddNewPost({ onClicked }: any) {
 				<h1 className={styles.text}>Create new post</h1>
 					<div className={styles.modal__content}>
 						<div>
-							<img style={{width: '30px', borderRadius: '50%'}} src={MyIcon} alt="user image" />
+							<img style={{width: '30px', borderRadius: '50%'}} src={MyIcon} alt="user" />
 							<span>{'userId'}</span>
 						</div>
 						<div>
@@ -53,7 +53,7 @@ export default function AddNewPost({ onClicked }: any) {
 }
 
 function FormInform({id, openAccordian, children} : any){
-	return <div onClick={openAccordian(id)}>
+	return <div onClick={() => openAccordian(id)}>
 		<span>{children}</span>
 		<Arrow />
 	</div>
