@@ -11,8 +11,16 @@
 }
 .user_wrapper {
   display: flex;
+  width: 100%;
   gap: 1rem;
   align-items: center;
+  justify-content: center;
+}
+.user_wrapper:hover {
+  cursor: pointer;
+  /* color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(92, 179, 255); */
 }
 .arrow {
   rotate: 180deg;
@@ -29,7 +37,7 @@
   align-items: center;
 }
 
-.edit_header{
+.edit_header {
   padding: 0 1rem;
   display: flex;
   font-size: 1.25rem;

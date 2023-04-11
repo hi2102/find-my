@@ -1,8 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
-// Load
-import { ReactComponent as Setting } from '../../../assets/icons/setting.svg';
+
 import { ReactComponent as Arrow } from '../../../assets/icons/arrow.svg';
-import { ReactComponent as RecommendUser } from '../../../assets/icons/recommend.svg';
 
 import styles from './Header.module.css';
 import profiles from '../../../data/profile.json';
@@ -10,15 +8,21 @@ import SearchBar from '../../search_bar/SearchBar';
 
 const UserName = [{ ...profiles }];
 
+
+function handleClick(e: React.MouseEvent<HTMLElement>) {
+	e.preventDefault();
+	console.log(1)
+}
+
 function MyPageHeader() {
 	return (
 		<header className={styles.container}>
-			<Setting />
 			<div className={styles.user_wrapper}>
 				<div>{UserName[0].profile[0].username}</div>
-				<Arrow className={styles.arrow} />
+				<div onClick={handleClick} >
+					<Arrow className={styles.arrow} />
+				</div>
 			</div>
-			<RecommendUser />
 		</header>
 	);
 }
@@ -43,9 +47,15 @@ function FeedHeader() {
 	);
 }
 
+// interface ILoginState {
+// 	isLogin: Number[],
+// 	setIsLogin: Number[]
+// }
+
 export default function Header() {
 	const currentLocation = useLocation();
-	console.log(currentLocation.pathname);
+	// const [isLogin, setIsLogin] = useState()
+	// console.log(currentLocation.pathname);
 	if (currentLocation.pathname === '/feed') {
 		return <FeedHeader />;
 	} else if (
