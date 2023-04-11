@@ -32,19 +32,6 @@
   cursor: pointer;
 } 
 
-.modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 40rem;
-  height: 40rem;
-  translate: -50% -50%;
-  background-color: #fff;
-  border-radius: 1rem;
-  z-index: 10;
-
-}
-
 .text {
   text-align: center;
   padding: 2rem;
@@ -55,7 +42,6 @@
   position: relative;
   width: 100%;
   height: 100%;
-
 }
 .add_icon {
   position: fixed;
@@ -88,3 +74,48 @@
 .add_icon_button:hover {
   cursor: pointer;
 } 
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 40rem;
+  height: 40rem;
+  translate: -50% -50%;
+  background-color: #fff;
+  border-radius: 1rem;
+  z-index: 10;
+
+}
+
+.modal__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 300px; */
+}
+.modal__content > div{
+  border-bottom: 1px solid lightgrey;;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 5px;
+  margin: 5px 0px;
+}
+.form{
+  padding: 0px;
+  display: flex;
+}
+.form textarea {
+  resize: none;
+}
+.form textarea:focus {
+  outline: none;
+}
+.form button {
+  margin-top: 5px;
+}
+.addInfo div svg{
+  transform: rotate(0.5turn);
+}

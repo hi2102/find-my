@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import { createPortal } from 'react-dom';
 import './Main.css';
 import styles from './Main.module.css';
+// import SubmitForm from './SubmitForm';
 
 // 메인화면 클릭 움직이는 기능 추가
 
@@ -21,6 +23,8 @@ export default function Main() {
 	};
 
 	return (
+		<>
+		{createPortal(
 		<div className={`container ${isSignUpActive && 'right-panel-active'}`}>
 			<div className='form-container sign-in-container'>
 				<form onSubmit={handleSubmitSignIn}>
@@ -31,6 +35,14 @@ export default function Main() {
 					<button>Sign In</button>
 				</form>
 			</div>
+			{/* <SubmitForm
+				onSubmit={handleSubmitSignIn} 
+				title='Sign In' 
+				inputContent={[
+						{type: 'email', placeholder:'My Email'},
+						{type: 'password', placeholder:'Enter Password'},
+						{type: 'password', placeholder:'Confirm Password'},
+			]} /> */}
 			<div className='form-container sign-up-container'>
 				<form onSubmit={handleSubmitSignUp}>
 					<h1 className={styles.title}>Create Account</h1>
@@ -65,6 +77,8 @@ export default function Main() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>,document.getElementById('portal')!)}
+		</>
+		
 	);
 }
